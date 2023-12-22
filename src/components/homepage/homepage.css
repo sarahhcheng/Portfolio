@@ -1,0 +1,27 @@
+.main-content {
+  text-align: center;
+  border: 1px, solid black;
+}
+
+.intro-text {
+  font-size: 55px;
+}
+
+.intro__img {
+  width: 300px;
+  min-width: 200px;
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.headline {
+  text-align: center;
+  border: 1px black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}

@@ -1,12 +1,13 @@
 import React from "react";
+import "./experiences.css";
 
 function Experience() {
   return (
-    <div>
-      <h3>Experiences</h3>
-      <h3>Microsoft</h3>
-      <h3>SAP</h3>
-      <h3>BlackBerry</h3>
+    <div className="container">
+      <div className="work-experience-title">
+        <h2>Work Experiences</h2>
+      </div>
+      <hr />
     </div>
   );
 }
