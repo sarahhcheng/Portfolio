@@ -1,0 +1,15 @@
+.Card {
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-item {
+  margin: 20px;
+
+  padding: 15px;
+  width: fit-content;
+  background-color: aqua;
+}
