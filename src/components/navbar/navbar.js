@@ -13,6 +13,9 @@ const Navbar = () => {
         <li>
           <Link to="/experiences">Experiences</Link>
         </li>
+        <li>
+          <Link to="/projects">Projects</Link>
+        </li>
       </ul>
     </header>
   );

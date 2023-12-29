@@ -1,17 +1,27 @@
 .main-content {
-  text-align: center;
   border: 1px, solid black;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
 }
 
 .intro-text {
   font-size: 55px;
+  text-align: center;
 }
 
+.img-container {
+  border: 1px black;
+  text-align: center;
+}
 .intro__img {
   width: 300px;
   min-width: 200px;
-  max-width: 60%;
-  height: auto;
+  max-width: 100%;
+  height: 100%;
   border-radius: 10px;
   border: 1px solid black;
 }
@@ -19,6 +29,11 @@
 .headline {
   text-align: center;
   border: 1px black;
+  background-color: aquamarine;
+  margin: 30px auto;
+  padding: 3px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 h2 {

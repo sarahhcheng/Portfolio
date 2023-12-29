@@ -1,4 +1,3 @@
-import Card from "../ProjectCards/Card";
 import "./homepage.css";
 
 function Homepage() {
@@ -15,7 +14,7 @@ function Homepage() {
         </div>
       </div>
       <div className="headline">
-        <h2>A computer science and business student at ubc.</h2>
+        <h2>computer science and business student at ubc.</h2>
       </div>
 
       {/* <Card title="Labby" description="dcnjdcdcndcdcjdcndcd" />

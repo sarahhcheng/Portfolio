@@ -5,9 +5,8 @@ function Experience() {
   return (
     <div className="container">
       <div className="work-experience-title">
-        <h2>Work Experiences</h2>
+        <h1>Work Experiences</h1>
       </div>
-      <hr />
     </div>
   );
 }
