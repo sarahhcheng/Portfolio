@@ -16,9 +16,6 @@ function Homepage() {
       <div className="headline">
         <h2>computer science and business student at ubc.</h2>
       </div>
-
-      {/* <Card title="Labby" description="dcnjdcdcndcdcjdcndcd" />
-      <Card title="Enspo" description="dcnjdcdcndcdcjdcndcd" /> */}
     </div>
   );
 }

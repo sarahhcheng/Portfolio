@@ -1,0 +1,18 @@
+.container {
+  margin: 80px;
+}
+
+.work-experience-title {
+  font-size: 50px;
+  text-align: center;
+  background-color: aquamarine;
+  max-width: 820px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.experiences {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column grid */
+  row-gap: 40px; /* Add vertical spacing between rows */
+}
