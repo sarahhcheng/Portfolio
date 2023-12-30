@@ -1,8 +1,9 @@
 import "./card.css";
 
 function Card(props) {
-  const { title, description = "", tech, image } = props;
+  const { title, description = "", tech = "", image } = props;
 
+  // Checking the amount of bullet points we have for the description and splitting them
   let descriptionPoints;
   var isDescription = false;
 
@@ -11,6 +12,9 @@ function Card(props) {
     var isDescription = true;
     console.log(isDescription);
   }
+
+  // splitting the tech stack so that they could be styled in their own divs
+  const techStack = tech.split(",");
 
   console.log(isDescription);
   return (
@@ -26,7 +30,11 @@ function Card(props) {
         </div>
         <div class="project-text">
           <h3>{title}</h3>
-          <p class="tech">{tech}</p>
+          <div class="tech">
+            {techStack.map((t) => (
+              <div className="language">{t.trim()}</div>
+            ))}
+          </div>
           {isDescription ? (
             <ul class="description">
               {descriptionPoints.map((point) => (
