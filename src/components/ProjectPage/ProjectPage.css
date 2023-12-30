@@ -1,0 +1,18 @@
+.project-page {
+  margin: 40px;
+}
+
+.project-headline {
+  font-size: 50px;
+  text-align: center;
+  background-color: aquamarine;
+  max-width: 820px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

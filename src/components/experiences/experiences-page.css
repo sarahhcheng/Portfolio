@@ -1,5 +1,9 @@
 .container {
   margin: 80px;
+  display: flex; /* Use flexbox to center children */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
 }
 
 .toggleExperienceContainer {
@@ -12,6 +16,7 @@
   font-size: 50px;
   text-align: center;
   background-color: aquamarine;
+  width: 100%;
   max-width: 820px;
   margin: auto;
   margin-bottom: 50px;

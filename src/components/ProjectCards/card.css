@@ -1,18 +1,60 @@
 .Card {
   width: 300px;
-  margin: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   overflow: hidden;
 }
 
 .project-item {
-  margin: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  overflow: hidden;
-  padding: 15px;
-  width: fit-content;
-  height: 160px;
-  background-color: plum;
+  width: 400px;
+  display: grid;
+  -ms-grid-columns: 20rem;
+  grid-template-columns: 100%;
+  -ms-grid-rows: 13rem 13rem 4rem;
+  grid-template-rows: 13rem 13rem 4rem;
+  grid-template-areas: "image" "desc" "buttons";
+  border-radius: 19px;
+  background-color: #add8e6;
+  text-align: center;
+  margin: 2rem;
+  transition: 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-2%);
+}
+
+.project-text {
+  padding: 1.5rem;
+  color: black;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.project-buttons {
+  -ms-grid-rows: 3;
+  -ms-grid-columns: 1;
+  grid-area: buttons;
+  display: block;
+  padding-top: 10px;
+}
+
+.project-image {
+  padding-top: 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.image {
+  border-radius: 10px;
+  border: 1px solid #6691cc;
+  outline-offset: 15px;
+  margin-bottom: 0;
+  max-width: 80%;
+  margin: 0 auto;
 }
