@@ -1,4 +1,5 @@
 import React from "react";
+import "./Work.css";
 
 function Work(props) {
   const { title, company, location, time, description, image } = props;

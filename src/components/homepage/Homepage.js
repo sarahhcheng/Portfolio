@@ -1,4 +1,5 @@
 import "./homepage.css";
+import Headline from "./Headline";
 
 function Homepage() {
   return (
@@ -14,7 +15,7 @@ function Homepage() {
         </div>
       </div>
       <div className="headline">
-        <h2>computer science and business student at ubc.</h2>
+        <Headline />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-function Project() {
+function ProjectPage() {
   return (
     <>
       <h1>Hello world</h1>
@@ -6,4 +6,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default ProjectPage;
