@@ -1,7 +1,18 @@
 import "./card.css";
 
 function Card(props) {
-  const { title, description, tech, image } = props;
+  const { title, description = "", tech, image } = props;
+
+  let descriptionPoints;
+  var isDescription = false;
+
+  if (description.length > 0) {
+    descriptionPoints = description.split("$");
+    var isDescription = true;
+    console.log(isDescription);
+  }
+
+  console.log(isDescription);
   return (
     <>
       <div class="project-item">
@@ -15,8 +26,16 @@ function Card(props) {
         </div>
         <div class="project-text">
           <h3>{title}</h3>
-          <p class="description">{description}</p>
           <p class="tech">{tech}</p>
+          {isDescription ? (
+            <ul class="description">
+              {descriptionPoints.map((point) => (
+                <li>{point.trim()}</li>
+              ))}
+            </ul>
+          ) : (
+            <></>
+          )}
         </div>
         <div class="project-buttons">
           <a

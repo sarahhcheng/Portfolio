@@ -58,3 +58,13 @@ h3 {
   max-width: 80%;
   margin: 0 auto;
 }
+
+.tech {
+  font-style: italic;
+}
+
+li {
+  text-align: left;
+  font-weight: normal;
+  display: block;
+}
