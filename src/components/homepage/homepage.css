@@ -1,3 +1,10 @@
+.home-container {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-content {
   border: 1px, solid black;
   display: flex;
@@ -39,4 +46,9 @@
 h2 {
   text-align: center;
   font-size: 30px;
+}
+
+.center-align {
+  width: 1000px;
+  margin: 10px;
 }
