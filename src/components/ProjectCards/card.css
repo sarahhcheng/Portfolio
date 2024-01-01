@@ -73,7 +73,7 @@ h3 {
   padding-right: 4px;
 }
 
-li {
+.description li {
   text-align: left;
   font-weight: normal;
   list-style: none;
