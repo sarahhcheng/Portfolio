@@ -1,3 +1,2 @@
-# Sarah Cheng's Portfolio
-
-Welcome to my personal portfolio repo. Built using React.
+# My Portfolio
+Welcome to my portfolio. I decided to remake it using React.
