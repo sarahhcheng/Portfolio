@@ -1,15 +1,23 @@
 .about-container {
-  margin: 80px;
+  height: 92vh;
+}
+
+.about-containererized {
+  margin: 20px;
 }
 
 .about-title {
   font-size: 55px;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .about-description {
+  max-width: 100%;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 .about-description ul {
@@ -24,7 +32,9 @@
 
 .about-img {
   width: 370px;
+  max-width: 100%;
   border-radius: 10%;
   display: block;
   margin: 0 auto;
+  border: 1px solid black;
 }
