@@ -1,3 +1,5 @@
+@import url("../../index.css");
+
 .Card {
   width: 300px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -14,7 +16,7 @@
   grid-template-rows: 13rem minmax(13rem, auto) 4rem;
   grid-template-areas: "image" "desc" "buttons";
   border-radius: 19px;
-  background-color: #add8e6;
+  background-color: var(--project-card);
   text-align: center;
   margin: 2rem;
   transition: 0.3s ease;
@@ -27,7 +29,7 @@
 
 .project-text {
   padding: 1rem;
-  color: black;
+  color: var(--text-color);
 }
 
 h3 {

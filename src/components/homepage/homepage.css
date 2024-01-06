@@ -1,3 +1,5 @@
+@import url("../../index.css");
+
 .home-container {
   height: 92vh;
   display: flex;
@@ -19,6 +21,7 @@
   font-size: 55px;
   text-align: center;
   padding: 10px;
+  color: var(--text-color);
 }
 
 .img-container {
@@ -37,10 +40,11 @@
 .headline {
   text-align: center;
   border: 1px black;
-  background-color: aquamarine;
+  background-color: var(--accent-color1);
   margin: 30px auto;
   padding: 30px;
   max-width: 100%;
+  color: var(--text-color);
 }
 
 h2 {

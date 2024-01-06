@@ -12,9 +12,9 @@ function Work(props) {
           <div className="job-details">
             <p className="company-title">{company} </p>
             <p>
-              <b>|</b>
+              <b className="pipe">|</b>
             </p>
-            <p>{location}</p>
+            <p className="job-location">{location}</p>
           </div>
           <p className="time">{time}</p>
         </div>

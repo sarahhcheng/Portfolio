@@ -1,3 +1,5 @@
+@import url("../../../index.css");
+
 .about-container {
   height: 92vh;
 }
@@ -6,20 +8,11 @@
   margin: 20px;
 }
 
-hr {
-  border: 0;
-  height: 5px;
-  background-color: violet;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .about-title {
   font-size: 55px;
   text-align: center;
   margin-bottom: 25px;
+  color: var(--text-color);
 }
 
 .about-description {
@@ -35,6 +28,10 @@ hr {
   list-style-type: none;
   padding: 0;
   font-size: 25px;
+}
+
+li {
+  color: var(--text-color);
 }
 
 .org {

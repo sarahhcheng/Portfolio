@@ -5,6 +5,7 @@ import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import "./experiences-page.css";
 import { styled } from "@mui/system";
+import "../../index.css";
 
 const CustomToggleButton = styled(ToggleButton)(() => ({
   border: "none",
@@ -19,11 +20,11 @@ const CustomToggleButton = styled(ToggleButton)(() => ({
     },
   },
   "&:not(.Mui-selected)": {
-    color: "#000",
+    color: "var(--text-color)",
     "&:hover": {
       backgroundColor: "#99ccff",
       border: "0.1px solid #99ccff",
-      color: "#000",
+      color: "var(--text-color)",
       transition: ".4s,background-position 0s",
     },
   },

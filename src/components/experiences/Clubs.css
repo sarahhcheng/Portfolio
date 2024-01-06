@@ -1,3 +1,5 @@
+@import url("../../index.css");
+
 .club-container {
   margin: 0 auto;
   max-width: 800px;
@@ -21,13 +23,16 @@
 
 .company-title {
   font-weight: bold;
+  color: var(--text-color);
 }
 
 .club-description {
+  color: var(--text-color);
   padding: 5px;
 }
 
 .club-title {
+  color: var(--text-color);
   padding: 0;
   margin-bottom: 0;
 }
@@ -35,7 +40,7 @@
 .time {
   padding: 0;
   margin: 0;
-  color: #6e7173;
+  color: var(--date-color);
 }
 
 .company-logos {
