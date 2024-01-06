@@ -19,6 +19,9 @@
   align-items: center;
 }
 
+.job-description {
+  padding: 5px;
+}
 .company-title {
   font-weight: bold;
 }

@@ -23,6 +23,10 @@
   font-weight: bold;
 }
 
+.club-description {
+  padding: 5px;
+}
+
 .club-title {
   padding: 0;
   margin-bottom: 0;
